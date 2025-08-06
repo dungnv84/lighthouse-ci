@@ -13,3 +13,12 @@ mệt quá
 asd
 
 asdadsasdsss
+git add .
+git commit -m "hehe"
+git push
+export LHCI_BUILD_CONTEXT__CURRENT_HASH=$(git rev-parse HEAD)
+export LHCI_BUILD_CONTEXT__BRANCH="main"
+export LHCI_BUILD_CONTEXT__COMMIT_TIME=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+export LHCI_BUILD_CONTEXT__COMMIT_MESSAGE="Manual upload at $(date)"
+lhci collect
+lhci upload --verbose
