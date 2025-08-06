@@ -1,0 +1,12 @@
+{
+    "name": "lighthouse-automation",
+    "version": "1.0.0",
+    "description": "Automated Lighthouse audits with dynamic URLs from API",
+    "main": "scripts/run-audits.js",
+    "scripts": {
+        "start": "node scripts/run-audits.js"
+    },
+    "dependencies": {
+        "@lhci/cli": "^0.15.1"
+    }
+}
