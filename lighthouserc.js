@@ -5,7 +5,7 @@ module.exports = {
         'https://www.facebook.com/',
         'https://www.youtube.com/'
       ],
-      numberOfRuns: 1,
+      numberOfRuns: 3,
     },
     upload: {
       target: 'lhci',
