@@ -12,9 +12,11 @@ module.exports = {
       target: 'lhci',
       serverBaseUrl: 'http://admin:admin@lighthouse-ci.local/',
       token: 'b04dd69f-d04a-4b05-ba7f-0be497bd478c',
+      ignoreDuplicateBuildFailure: true,
     },
   },
 };
+
 
 // 4fU4qFJH0jOTZlzBy62pgpg1RByHOsaEwE5kbJLo
 // export DOMAINS_API_URL="https://gateway.dev-kiotvietweb.fun/api/v2/merchants/domain/list-domain-devops?page=1&perPage=10"
