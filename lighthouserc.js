@@ -1,17 +1,17 @@
 module.exports = {
   ci: {
     collect: {
+      numberOfRuns: 1,
       url: [
-        'https://www.facebook.com/',
-        'https://www.youtube.com/'
+        'https://phuongnt4.dev-kiotvietweb.fun/',
+        'https://test19.dev-kiotvietweb.fun/',
+        'https://taphoadd12.dev-kiotvietweb.fun/',
       ],
-      numberOfRuns: 3,
     },
     upload: {
       target: 'lhci',
       serverBaseUrl: 'http://admin:admin@lighthouse-ci.local/',
       token: 'b04dd69f-d04a-4b05-ba7f-0be497bd478c',
-      ignoreDuplicateBuildFailure: true,
     },
   },
 };
