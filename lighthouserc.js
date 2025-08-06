@@ -1,7 +1,7 @@
 module.exports = {
   ci: {
     collect: {
-      numberOfRuns: 1,
+      numberOfRuns: 3,
       url: [
         'https://phuongnt4.dev-kiotvietweb.fun/',
         'https://test19.dev-kiotvietweb.fun/',
