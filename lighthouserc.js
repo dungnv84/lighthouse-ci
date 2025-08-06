@@ -2,10 +2,10 @@ module.exports = {
   ci: {
     collect: {
       url: [
-        'https://phuongnt4.dev-kiotvietweb.fun/',
-        'https://test19.dev-kiotvietweb.fun/'
+        'https://www.facebook.com/',
+        'https://www.youtube.com//'
       ],
-      numberOfRuns: 1,
+      numberOfRuns: 3,
     },
     upload: {
       target: 'lhci',
