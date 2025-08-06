@@ -2,8 +2,8 @@ module.exports = {
   ci: {
     collect: {
       url: [
-        'https://www.facebook.com/',
-        'https://www.youtube.com//'
+        'https://phuongnt4.dev-kiotvietweb.fun/',
+        'https://test19.dev-kiotvietweb.fun/'
       ],
       numberOfRuns: 3,
     },
