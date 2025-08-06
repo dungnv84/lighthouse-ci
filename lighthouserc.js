@@ -5,7 +5,7 @@ module.exports = {
         'https://phuongnt4.dev-kiotvietweb.fun/',
         'https://test19.dev-kiotvietweb.fun/'
       ],
-      numberOfRuns: 1,
+      numberOfRuns: 3,
     },
     upload: {
       target: 'lhci',
