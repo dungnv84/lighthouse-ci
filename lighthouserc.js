@@ -6,6 +6,7 @@ module.exports = {
         'https://phuongnt4.dev-kiotvietweb.fun/',
         'https://test19.dev-kiotvietweb.fun/',
         'https://taphoadd12.dev-kiotvietweb.fun/',
+        'https://facebook.com/',
       ],
     },
     upload: {
