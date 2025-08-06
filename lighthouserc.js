@@ -11,7 +11,7 @@ module.exports = {
     upload: {
       target: 'lhci',
       serverBaseUrl: 'http://admin:admin@lighthouse-ci.local/',
-      token: 'c41a39a2-2465-4acb-b58f-00c274217d44',
+      token: 'c27b3ac7-277d-4ca1-bfbf-27cf47bfdd45',
     },
   },
 };
