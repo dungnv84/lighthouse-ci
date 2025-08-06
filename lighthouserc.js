@@ -3,8 +3,7 @@ module.exports = {
     collect: {
       url: [
         'https://phuongnt4.dev-kiotvietweb.fun/',
-        'https://test19.dev-kiotvietweb.fun/',
-        'https://taphoadd12.dev-kiotvietweb.fun/'
+        'https://test19.dev-kiotvietweb.fun/'
       ],
       numberOfRuns: 1,
     },
