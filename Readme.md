@@ -9,4 +9,4 @@ lhci wizard
 Created project lighthouse-ci (3c062245-a235-4cbb-86bb-efa5b528a998)!
 Use build token c41a39a2-2465-4acb-b58f-00c274217d44 to add data.
 Use admin token oYbGcHptVn3V7iMlG1YzpokWRGevyV1PY00tw5VE to manage data. KEEP THIS SECRET!
-b
+c
