@@ -1,22 +1,12 @@
 module.exports = {
   ci: {
-    collect: {
-      numberOfRuns: 1,
-      url: [
-        'https://phuongnt4.dev-kiotvietweb.fun/',
-        'https://test19.dev-kiotvietweb.fun/',
-        'https://taphoadd12.dev-kiotvietweb.fun/',
-        'https://facebook.com/',
-      ],
-    },
     upload: {
       target: 'lhci',
-      serverBaseUrl: 'http://admin:admin@lighthouse-ci.local/',
-      token: 'b04dd69f-d04a-4b05-ba7f-0be497bd478c',
+      serverBaseUrl: process.env.LHCI_SERVER_URL,
+      token: process.env.LHCI_TOKEN,
     },
   },
 };
-
 
 // 4fU4qFJH0jOTZlzBy62pgpg1RByHOsaEwE5kbJLo
 // export DOMAINS_API_URL="https://gateway.dev-kiotvietweb.fun/api/v2/merchants/domain/list-domain-devops?page=1&perPage=10"
