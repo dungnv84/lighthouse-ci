@@ -26,18 +26,18 @@ module.exports = {
   },
 };
 
-// lhci collect --url='https://phuongnt4.dev-kiotvietweb.fun/' --numberOfRuns=1
-// lhci collect --url='https://test19.dev-kiotvietweb.fun/' --numberOfRuns=1
-// lhci collect --url='https://taphoadd12.dev-kiotvietweb.fun/' --numberOfRuns=1
-// lhci collect --url='https://facebook.com/' --numberOfRuns=1
-// lhci collect --url='https://dantri.com.vn/' --numberOfRuns=1
-// lhci collect --url='https://vnexpress.net/' --numberOfRuns=1
-// lhci collect --url='https://zingnews.vn/' --numberOfRuns=1
-// lhci collect --url='https://tuoitre.vn/' --numberOfRuns=1
-// lhci collect --url='https://vietnamnet.vn/' --numberOfRuns=1
-// lhci collect --url='https://laodong.vn/' --numberOfRuns=1
-// lhci collect --url='https://cafef.vn/' --numberOfRuns=1
-// lhci collect --url='https://danviet.vn/' --numberOfRuns=1
+lhci collect --url='https://phuongnt4.dev-kiotvietweb.fun/' --numberOfRuns=1
+lhci collect --url='https://test19.dev-kiotvietweb.fun/' --numberOfRuns=1
+lhci collect --url='https://taphoadd12.dev-kiotvietweb.fun/' --numberOfRuns=1
+lhci collect --url='https://facebook.com/' --numberOfRuns=1
+lhci collect --url='https://dantri.com.vn/' --numberOfRuns=1
+lhci collect --url='https://vnexpress.net/' --numberOfRuns=1
+lhci collect --url='https://zingnews.vn/' --numberOfRuns=1
+lhci collect --url='https://tuoitre.vn/' --numberOfRuns=1
+lhci collect --url='https://vietnamnet.vn/' --numberOfRuns=1
+lhci collect --url='https://laodong.vn/' --numberOfRuns=1
+lhci collect --url='https://cafef.vn/' --numberOfRuns=1
+lhci collect --url='https://danviet.vn/' --numberOfRuns=1
 
 
 // 4fU4qFJH0jOTZlzBy62pgpg1RByHOsaEwE5kbJLo
