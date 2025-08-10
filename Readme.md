@@ -19,3 +19,7 @@ export LHCI_BUILD_CONTEXT__COMMIT_TIME=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 export LHCI_BUILD_CONTEXT__COMMIT_MESSAGE="Manual upload at $(date)"
 <!-- lhci collect -->
 lhci upload --verbose
+
+lhci collect --url=https://phuongnt4.dev-kiotvietweb.fun/ --url=https://test19.dev-kiotvietweb.fun/ --url=https://dantri.com.vn/   --output-dir=.lighthouseci/batch1 
+lhci collect --url=https://vnexpress.net/ --url=https://tuoitre.vn/ --url=https://vietnamnet.vn/  --output-dir=.lighthouseci/batch3
+lhci upload --input-dir=.lighthouseci/
