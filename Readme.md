@@ -35,10 +35,16 @@ lhci upload --input-dir=.lighthouseci/batch1
 lhci upload --input-dir=.lighthouseci/batch3
 
 
-
-lhci collect --config=../lighthouserc.batch1.js
-lhci upload --config=lighthouserc.batch1.js
-
+git add .
+git commit -m "hehe"
+export LHCI_BUILD_CONTEXT__CURRENT_HASH=$(git rev-parse HEAD)
+export LHCI_BUILD_CONTEXT__BRANCH="main"
+export LHCI_BUILD_CONTEXT__COMMIT_TIME=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+export LHCI_BUILD_CONTEXT__COMMIT_MESSAGE="Manual upload at $(date)"
+cd batch1 && lhci collect --config=../lighthouserc.batch1.js
+cd ..
+cd batch3 && lhci collect --config=../lighthouserc.batch3.js
+cd ..
 # Run and upload Batch 3
 lhci collect --config=../lighthouserc.batch3.js
 lhci upload --config=lighthouserc.batch3.js
