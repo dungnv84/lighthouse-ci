@@ -3,9 +3,7 @@ module.exports = {
       collect: {
         numberOfRuns: 1,
         url: [
-          'https://vnexpress.net/',
-          'https://tuoitre.vn/',
-          'https://vietnamnet.vn/'
+          'https://vnexpress.net/'
         ],
       },
       upload: {
