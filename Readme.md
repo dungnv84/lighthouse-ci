@@ -6,11 +6,9 @@ lhci wizard
 ? What would you like to name the project? lighthouse-ci
 ? Where is the project's code hosted? https://github.com/dungnv84/lighthouse-ci
 ? What branch is considered the repo's trunk or main branch? main
-Created project lighthouse-ci (3c062245-a235-4cbb-86bb-efa5b528a998)!
-Use build token c41a39a2-2465-4acb-b58f-00c274217d44 to add data.
-Use admin token oYbGcHptVn3V7iMlG1YzpokWRGevyV1PY00tw5VE to manage data. KEEP THIS SECRET!
-mệt quá
-asdss
+Created project lighthouse-ci (068c3328-9eca-42aa-a8d4-87f8546ee8ad)!
+Use build token 807b06ae-996b-4b61-8c7e-1fd62aff813c to add data.
+Use admin token iulhtEotBabZVSdQTn2EVqNtlIDiCpIvlZoCe1TA to manage data. KEEP THIS SECRET!
 
 git add .
 git commit -m "hehe"
@@ -19,5 +17,5 @@ export LHCI_BUILD_CONTEXT__CURRENT_HASH=$(git rev-parse HEAD)
 export LHCI_BUILD_CONTEXT__BRANCH="main"
 export LHCI_BUILD_CONTEXT__COMMIT_TIME=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 export LHCI_BUILD_CONTEXT__COMMIT_MESSAGE="Manual upload at $(date)"
-lhci collect
+<!-- lhci collect -->
 lhci upload --verbose
