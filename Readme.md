@@ -45,6 +45,9 @@ cd batch1 && lhci collect --config=../lighthouserc.batch1.js
 cd ..
 cd batch3 && lhci collect --config=../lighthouserc.batch3.js
 cd ..
+ lhci upload --outputDir=batch1
 # Run and upload Batch 3
 lhci collect --config=../lighthouserc.batch3.js
 lhci upload --config=lighthouserc.batch3.js
+
+lhci upload --config=.lighthouserc.batch3.js
